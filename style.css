@@ -91,10 +91,27 @@ ul {
 
 .container-2{
 	display:flex;
-	flex-direction:row;
+	flex-direction:column;
 	flex-wrap; wrap;
 	justify-content: space-around;
 	font-family: 'Arimo', sans-serif;
+}
+
+.container-2 a:link, a:visited {
+	display:block;
+	color: #6eacde;
+}
+
+.container-2 a:link, a:hover {
+	color: #214b74;
+}
+
+#row {
+  display: flex;
+}
+
+.column-1 {
+	flex-grow:2
 }
 
 #footer {
@@ -121,6 +138,7 @@ ul {
 		flex-direction: row;
 }
 
+.
 
 img {
 	border: none;
