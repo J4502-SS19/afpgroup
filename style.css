@@ -19,7 +19,7 @@ h1 {
 h4 {
 	font-family: 'Arimo', sans-serif;
 	font-style: bold;
-	font-size: 26px
+	font-size: 40px
 	color: #214b74
 
 ul {
@@ -54,7 +54,7 @@ ul {
 	  border-bottom: 1px solid #ccc;
 }
 
-.nav a:link, #nav a:visited {
+.nav a:link, .nav a:visited {
 	  display:block;
     color: #f1f0f1;
     background-color: #6eacde;
@@ -65,7 +65,7 @@ ul {
     font-family: 'Arimo', sans-serif;
 }
 
-.nav a:hover, #nav a:active {
+.nav a:hover, .nav a:active {
     background-color: #214b74;
 }
 
@@ -79,9 +79,22 @@ ul {
 }
 
 #footer {
+<<<<<<< HEAD
     color: white;
 		background-color: #1e4574
+=======
+<<<<<<< HEAD
+    color: white;
+=======
+=======
+
+    color: white;
+>>>>>>> 4c4fcad9fe4dabedc59a322e45b4c6237f23fb05
+    color: #1e4574;
+		background-color: #1e4574;
+>>>>>>> b7985dec4884e6d81377834019e5bc7313a3772f
     font-family: Georgia, "Times New Roman", serif;
+>>>>>>> 94c96ac3aee0632a7138de6485f40d562ba7857a
     font-size: 0.8em;
     border-top: 1px solid black;
 		display: flex;
