@@ -5,12 +5,34 @@
 }*/
 
 p {
+<<<<<<< HEAD
 	color: #666666;
     font-family: Helvetica, Arial, sans-serif;
 }
 
 h1 {
     font-family: Georgia, "Times New Roman", serif;
+=======
+	color: #000000;
+      font-family: 'Open Sans', arial; sans-serif;
+			font-style: normal;
+			font-size: 16px;
+}
+
+h1 {
+    font-family: 'Arimo', sans-serif;
+		font-style: bold;
+		font-size: 45px
+		color: #214b74
+}
+
+h4 {
+	font-family: 'Arimo', sans-serif;
+	font-style: bold;
+	font-size: 26px
+	color: #214b74
+
+>>>>>>> 8e637456bce0486a35a04529a215ff3b239d9a57
 }
 
 #container{
@@ -31,17 +53,17 @@ h1 {
 
 #nav a:link, #nav a:visited {
 	  display:block;
-    color: #ffffff;
-    background-color: #98bf21;
+    color: #f1f0f1;
+    background-color: #6eacde;
     font-weight: bold;
     text-align:center;
     text-decoration: none;
     padding: 4px;
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: 'Arimo', sans-serif;
 }
 
 #nav a:hover, #nav a:active {
-    background-color: #7a991a;
+    background-color: #214b74;
 }
 
 .caption {
@@ -54,7 +76,12 @@ h1 {
 }
 
 #footer {
+<<<<<<< HEAD
     color: blue;
+=======
+    color: white;
+		background-color: #1e4574
+>>>>>>> 8e637456bce0486a35a04529a215ff3b239d9a57
     font-family: Georgia, "Times New Roman", serif;
     font-size: 0.8em;
     border-top: 1px solid black;
