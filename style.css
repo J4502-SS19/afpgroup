@@ -55,7 +55,7 @@ ul {
 	  border-bottom: 1px solid #ccc;
 }
 
-.nav a:link, #nav a:visited {
+.nav a:link, .nav a:visited {
 	  display:block;
     color: #f1f0f1;
     background-color: #6eacde;
@@ -66,7 +66,7 @@ ul {
     font-family: 'Arimo', sans-serif;
 }
 
-.nav a:hover, #nav a:active {
+.nav a:hover, .nav a:active {
     background-color: #214b74;
 }
 
