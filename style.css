@@ -25,11 +25,14 @@ h4 {
 	color: #214b74
 }
 
+<<<<<<< HEAD
+=======
 ul {
 	color: #000000;
       font-family: 'Open Sans', arial; sans-serif;
 			font-style: normal;
 			font-size: 16px;
+>>>>>>> ba16f6361b4550cbf46a4181fc5599f3a54b44b2
 }
 
 #container{
@@ -73,12 +76,19 @@ ul {
 }
 
 #footer {
+    color: white;
+=======
     color: #1e4574;
 		background-color: #1e4574
     font-family: Georgia, "Times New Roman", serif;
+>>>>>>> 94c96ac3aee0632a7138de6485f40d562ba7857a
     font-size: 0.8em;
     border-top: 1px solid black;
+		display: flex;
+		justify-content: space-around;
+		flex-direction: row;
 }
+
 
 img {
 	border: none;
