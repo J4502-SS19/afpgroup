@@ -93,7 +93,7 @@ ul {
 	display:flex;
 	flex-direction:column;
 	flex-wrap; wrap;
-	justify-content: space-around;
+	justify-content: space-between;
 	font-family: 'Arimo', sans-serif;
 }
 
@@ -108,10 +108,11 @@ ul {
 
 #row {
   display: flex;
+	justify-content: space-between;
 }
 
-.column-1 {
-	flex-grow:2
+.column-2 {
+	flex-grow: 2
 }
 
 #footer {
