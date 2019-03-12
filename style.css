@@ -99,13 +99,19 @@ ul {
 
 .container-2 a:link, a:visited {
 	display:block;
-	color: #6eacde;
+	color: #f1f0f1;
+	background-color: #214b74;
+	font-weight: bold;
+	text-align:center;
+	text-decoration: none;
+	padding: 4px;
 }
 
 .container-2 a:link, a:hover {
-	color: #214b74;
+	color: #6eacde;
 }
 
+/*column style goes here*/
 #row {
   display: flex;
 	justify-content: space-between;
@@ -114,6 +120,9 @@ ul {
 .column-2 {
 	flex-grow: 2
 }
+
+
+/*footer style goes here*/
 
 #footer {
 <<<<<<< HEAD
