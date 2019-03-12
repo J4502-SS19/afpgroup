@@ -6,9 +6,7 @@
 
 p {
 	color: #000000;
-      font-family: 'Open Sans', arial; sans-serif;
-			font-style: normal;
-			font-size: 16px;
+    font-family: 'Open Sans', arial; sans-serif;
 }
 
 h1 {
@@ -24,6 +22,11 @@ h4 {
 	font-size: 26px
 	color: #214b74
 
+ul {
+	color: #000000;
+      font-family: 'Open Sans', arial; sans-serif;
+			font-style: normal;
+			font-size: 16px;
 }
 
 #container{
@@ -31,18 +34,27 @@ h4 {
     margin: 0 auto;
 }
 
-#nav {
+.nav {
+		display: flex;
+		flex-direction: column;
     padding: 0;
 	  list-style-type: none;
 }
 
-#nav li {
+@media (min-width: 600px) {
+	.nav {
+		flex-direction: row;
+		justify-content: flex-end;
+	}
+}
+
+.item {
     margin: 0;
     padding: 0;
 	  border-bottom: 1px solid #ccc;
 }
 
-#nav a:link, #nav a:visited {
+.nav a:link, #nav a:visited {
 	  display:block;
     color: #f1f0f1;
     background-color: #6eacde;
@@ -53,7 +65,7 @@ h4 {
     font-family: 'Arimo', sans-serif;
 }
 
-#nav a:hover, #nav a:active {
+.nav a:hover, #nav a:active {
     background-color: #214b74;
 }
 
