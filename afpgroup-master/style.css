@@ -1,0 +1,65 @@
+/*styles go here*/
+
+/*p {
+    color: red;
+}*/
+
+p {
+	color: #666666;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+h1 {
+    font-family: Georgia, "Times New Roman", serif;
+}
+
+#container{
+    width: 95%;
+    margin: 0 auto;
+}
+
+#nav {
+    padding: 0;
+	  list-style-type: none;
+}
+
+#nav li {
+    margin: 0;
+    padding: 0;
+	  border-bottom: 1px solid #ccc;
+}
+
+#nav a:link, #nav a:visited {
+	  display:block;
+    color: #ffffff;
+    background-color: #98bf21;
+    font-weight: bold;
+    text-align:center;
+    text-decoration: none;
+    padding: 4px;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+#nav a:hover, #nav a:active {
+    background-color: #7a991a;
+}
+
+.caption {
+    color: black;
+    font-family: Georgia, "Times New Roman", serif;
+    font-style: italic;
+    font-size: 0.8em;
+    margin-top: 0;
+    text-align: right;
+}
+
+#footer {
+    color: black;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 0.8em;
+    border-top: 1px solid black;
+}
+
+img {
+	border: none;
+}
