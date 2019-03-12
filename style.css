@@ -5,12 +5,16 @@
 }*/
 
 p {
-	color: #666666;
-    font-family: Helvetica, Arial, sans-serif;
+	color: #214b74;
+      font-family: 'Open Sans', arial; sans-serif;
+			font-style: normal;
+			font-size: 16px;
 }
 
 h1 {
-    font-family: Georgia, "Times New Roman", serif;
+    font-family: 'Arimo', sans-serif;
+		font-style: bold;
+		font-size: 45px
 }
 
 #container{
