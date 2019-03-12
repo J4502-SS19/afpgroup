@@ -5,7 +5,7 @@
 }*/
 
 p {
-	color: #214b74;
+	color: #000000;
       font-family: 'Open Sans', arial; sans-serif;
 			font-style: normal;
 			font-size: 16px;
@@ -16,6 +16,20 @@ h1 {
 		font-style: bold;
 		font-size: 45px
 		color: #214b74
+}
+
+h4 {
+	font-family: 'Arimo', sans-serif;
+	font-style: bold;
+	font-size: 26px
+	color: #214b74
+}
+
+ul {
+	color: #000000;
+      font-family: 'Open Sans', arial; sans-serif;
+			font-style: normal;
+			font-size: 16px;
 }
 
 #container{
@@ -68,7 +82,8 @@ h1 {
 }
 
 #footer {
-    color: white;
+    color: #1e4574;
+		background-color: #1e4574
     font-family: Georgia, "Times New Roman", serif;
     font-size: 0.8em;
     border-top: 1px solid black;
