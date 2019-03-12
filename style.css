@@ -5,18 +5,8 @@
 }*/
 
 p {
-<<<<<<< HEAD
-	color: #666666;
-    font-family: Helvetica, Arial, sans-serif;
-}
-
-h1 {
-    font-family: Georgia, "Times New Roman", serif;
-=======
 	color: #000000;
-      font-family: 'Open Sans', arial; sans-serif;
-			font-style: normal;
-			font-size: 16px;
+    font-family: 'Open Sans', arial; sans-serif;
 }
 
 h1 {
@@ -33,15 +23,11 @@ h4 {
 	color: #214b74
 }
 
-<<<<<<< HEAD
->>>>>>> 8e637456bce0486a35a04529a215ff3b239d9a57
-=======
 ul {
 	color: #000000;
       font-family: 'Open Sans', arial; sans-serif;
 			font-style: normal;
 			font-size: 16px;
->>>>>>> ba16f6361b4550cbf46a4181fc5599f3a54b44b2
 }
 
 #container{
