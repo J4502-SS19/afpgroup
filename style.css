@@ -41,6 +41,13 @@ ul {
 	  list-style-type: none;
 }
 
+.class {
+		display: flex;
+		flex-direction: row;
+    padding: 0;
+	  list-style-type: none;
+}
+
 @media (min-width: 600px) {
 	.nav {
 		flex-direction: row;
