@@ -18,6 +18,14 @@ h1 {
 		color: #214b74
 }
 
+h4 {
+	font-family: 'Arimo', sans-serif;
+	font-style: bold;
+	font-size: 26px
+	color: #214b74
+
+}
+
 #container{
     width: 95%;
     margin: 0 auto;
