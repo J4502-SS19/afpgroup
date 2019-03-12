@@ -36,17 +36,17 @@ h1 {
 
 #nav a:link, #nav a:visited {
 	  display:block;
-    color: #ffffff;
-    background-color: #98bf21;
+    color: #6eacde;
+    background-color: #6eacde;
     font-weight: bold;
     text-align:center;
     text-decoration: none;
     padding: 4px;
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: 'Arimo', sans-serif;
 }
 
 #nav a:hover, #nav a:active {
-    background-color: #7a991a;
+    background-color: #214b74;
 }
 
 .caption {
