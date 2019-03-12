@@ -6,7 +6,9 @@
 
 p {
 	color: #666666;
-    font-family: Helvetica, Arial, sans-serif;
+      font-family: "Open+Sans", Arial, sans-serif;
+			font-size: 16px;
+
 }
 
 h1 {
