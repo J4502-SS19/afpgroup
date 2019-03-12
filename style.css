@@ -23,7 +23,13 @@ h4 {
 	font-style: bold;
 	font-size: 26px
 	color: #214b74
+}
 
+ul {
+	color: #000000;
+      font-family: 'Open Sans', arial; sans-serif;
+			font-style: normal;
+			font-size: 16px;
 }
 
 #container{
