@@ -16,11 +16,13 @@ h1 {
 		color: #214b74
 }
 
-h4 {
+h3 {
 	font-family: 'Arimo', sans-serif;
 	font-style: bold;
 	font-size: 40px
 	color: #214b74
+
+}
 
 ul {
 	color: #000000;
@@ -86,9 +88,8 @@ ul {
     text-align: right;
 }
 
-.pages {
-	text-align: left;
-	display: flex;
+.container-2{
+	display:flex;
 	flex-direction: row;
 }
 
