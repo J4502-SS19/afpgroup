@@ -59,6 +59,10 @@ ul {
 	}
 }
 
+.logo {
+		justify-content: flex-start;
+}
+
 .item {
 		border-radius: 3px;
 		background-color: #6eacde;
