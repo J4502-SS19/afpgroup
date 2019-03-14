@@ -161,33 +161,49 @@ ul {
 }
 
 
-/*footer style goes here*/
+
 
 #footer {
-<<<<<<< HEAD
     color: white;
-		background-color: #1e4574
-=======
-<<<<<<< HEAD
-    color: white;
-=======
-=======
-
-    color: white;
->>>>>>> 4c4fcad9fe4dabedc59a322e45b4c6237f23fb05
-    color: #1e4574;
 		background-color: #1e4574;
->>>>>>> b7985dec4884e6d81377834019e5bc7313a3772f
-    font-family: Georgia, "Times New Roman", serif;
->>>>>>> 94c96ac3aee0632a7138de6485f40d562ba7857a
-    font-size: 0.8em;
-    border-top: 1px solid black;
+    font-family: Open Sans Regular, "Georgia", serif;
+    font-size: 12;
 		display: flex;
-		justify-content: space-around;
-		flex-direction: row;
+		justify-content: space-between;
+		flex-direction: column;
+		padding: 40px;
+		align-items: center;
+		align-content: space-between;
 }
 
-.
+.footeritem-1 {
+	border-radius: 3px;
+	padding: 15px;
+	margin: 2px;
+}
+
+.footeritem-2 {
+		color: #1e4574;
+		background-color: #f1f0f1;
+		border-radius: 10px;
+		padding: 15px;
+		margin: 2px;
+	}
+
+.footeritem-3 {
+	background-color: red;
+	border-radius: 20px;
+	padding: 10px;
+	margin: 25px;
+}
+
+.footeritem-4 {
+	color: white;
+	display: flex;
+	align-content:flex-end;
+	font-family: open sans;
+	align:left;
+}
 
 img {
 	border: none;
