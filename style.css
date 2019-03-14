@@ -63,6 +63,16 @@ ul {
 		justify-content: flex-start;
 }
 
+.responsive {
+	width: 100%;
+  height: auto;
+	max-width: 400px;
+}
+
+.partner {
+	color: #6eacde;
+}
+
 .item {
 		border-radius: 3px;
 		background-color: #6eacde;
