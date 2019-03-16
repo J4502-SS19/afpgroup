@@ -167,14 +167,22 @@ ul {
   width: 100%;
 }
 
+.fellowname {
+	color: #000000;
+  font-family: 'Open Sans', arial; sans-serif;
+	font-style: normal;
+	font-size: 16px;
+	text-transform: uppercase;
+	text-align: right;
+}
 
 
 
 #footer {
     color: white;
 		background-color: #1e4574;
-    font-family: Open Sans Regular, "Georgia", serif;
-    font-size: 12;
+    font-family: "Open Sans Regular", "Georgia", serif;
+    font-size: 16px;
 		display: flex;
 		justify-content: space-between;
 		flex-direction: column;
@@ -198,7 +206,8 @@ ul {
 	}
 
 .footeritem-3 {
-	background-color: red;
+	color: white;
+	background-color: #aa0000;
 	border-radius: 20px;
 	padding: 10px;
 	margin: 25px;
