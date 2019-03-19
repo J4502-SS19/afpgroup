@@ -30,8 +30,17 @@ h3 {
 	font-style: bold;
 	font-size: 30px;
 	color: #1e4574
-
 }
+
+h4 {
+	color: #ffffff;
+	font-family: 'Open Sans', arial; sans-serif;
+	font-style: bold;
+	font-size: 30px;
+	text-align: center;
+	margin: auto;
+}
+
 
 ul {
 	color: #000000;
