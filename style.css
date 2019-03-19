@@ -13,7 +13,16 @@ h1 {
     font-family: 'Arimo', sans-serif;
 		font-style: bold;
 		font-size: 30px;
-		color: #214b74
+		color: #214b74;
+}
+
+h2{
+	color: #214b74;
+	font-family: 'Open Sans', arial; sans-serif;
+	font-style: bold;
+	font-size: 22px;
+	text-align: center;
+	margin-bottom: 5px;
 }
 
 h3 {
@@ -21,7 +30,6 @@ h3 {
 	font-style: bold;
 	font-size: 30px;
 	color: #1e4574
-
 }
 
 ul {
@@ -186,15 +194,75 @@ ul {
 	text-align: center;
 }
 
-#mugs {
-	display: block;
-  margin-left: auto;
-  margin-right: auto;
-	width: 50%;
+.mugs {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 20px;
+	gap: 20px;
 }
 
+.mugs li{
+	background-color: #6eacde;
+	padding: 10px;
+}
 
+.mug1{
+	grid-column: 1;
+	grid-row: 1;
+}
 
+.mug2{
+	grid-column: 2;
+	grid-row: 1;
+}
+
+.mug3{
+	grid-column: 3;
+	grid-row: 1;
+}
+
+.mug4{
+	grid-column: 1;
+	grid-row: 2;
+}
+
+.mug5{
+	grid-column: 2;
+	grid-row: 2;
+}
+
+.mug6{
+	grid-column: 3;
+	grid-row: 2;
+}
+
+.mug7{
+	grid-column: 1;
+	grid-row: 3;
+}
+
+.mug8{
+	grid-column: 2;
+	grid-row: 3;
+}
+
+.mug9{
+	grid-column: 3;
+	grid-row: 3;
+}
+
+.mug10{
+	grid-column: 1;
+	grid-row: 4;
+}
+
+.mug11{
+	grid-column: 2;
+	grid-row: 4;
+}
 
 #footer {
     color: white;
