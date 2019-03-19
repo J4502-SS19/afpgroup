@@ -16,6 +16,15 @@ h1 {
 		color: #214b74
 }
 
+h2{
+	color: #6eacde;
+	font-family: 'Open Sans', arial; sans-serif;
+	font-style: bold;
+	font-size: 17px;
+	text-align: center;
+	margin-bottom: 5px;
+}
+
 h3 {
 	font-family: 'Arimo', sans-serif;
 	font-style: bold;
@@ -225,7 +234,7 @@ ul {
 	width:60%;
 }
 
-.mugs {
+.mugshots {
 	margin: 0;
 	padding: 0;
 	list-style: none;
@@ -235,7 +244,7 @@ ul {
 	gap: 20px;
 }
 
-.mugs li{
+.mugshots li{
 	background-color: #6eacde;
 	padding: 10px;
 	list-style: none;
