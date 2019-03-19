@@ -193,6 +193,44 @@ ul {
 	width: 50%;
 }
 
+/*about blocks style goes here*/
+.cards {
+    padding: 0;
+    list-style: none;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+		flex-wrap: wrap;
+
+}
+
+.cards li {
+    background-color: #6eacde;
+    border: 1px solid #a5a7a9;
+    padding: 10px;
+    border-radius: 5px;
+		margin: 10px;
+		height: auto;
+		width: 250px;
+}
+
+.cards h2
+	{
+		display: flex;
+		align-content: center;
+	}
+
+	.cards p
+		{
+			display: flex;
+			align-content: center;
+		}
+
+.cards img
+{
+	height: auto;
+	width:60%;
+}
 
 
 
@@ -246,26 +284,3 @@ ul {
 img {
 	border: none;
 }
-
-.cards {
-    padding: 0;
-    list-style: none;
-    margin: 0;
-    display: grid;
-    grid-gap: 20px;
-    grid-template-columns: 1fr auto 1fr;
-}
-
-.cards li {
-    background-color: #f1b82d;
-    border: 1px solid #ccc;
-    padding: 10px;
-    border-radius: 5px;
-}
-
-.cards .card2 {
-    width: 300px;
-}
-
-.cards .card4 {
-    height: 300px;
