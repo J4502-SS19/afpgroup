@@ -255,7 +255,7 @@ ul {
 	flex-direction: column;
 	justify-content: space-around;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.05);
-  max-width: 300px;
+  max-width: 500px;
   margin: auto;
 	margin-bottom: 25px;
   text-align: center;
