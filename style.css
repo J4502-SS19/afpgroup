@@ -60,7 +60,7 @@ ul {
 }
 
 .logo {
-		justify-content: flex-start;
+		justify-content:center;
 }
 
 .responsive {
@@ -71,6 +71,7 @@ ul {
 
 .partner {
 	color: #6eacde;
+	justify-content: center;
 }
 
 .item {
