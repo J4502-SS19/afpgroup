@@ -16,7 +16,7 @@ h1 {
 		color: #214b74
 }
 
-h2{
+h2 {
 	color: #214b74;
 	font-family: 'Open Sans', arial; sans-serif;
 	font-style: bold;
@@ -257,6 +257,7 @@ ul {
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.05);
   max-width: 300px;
   margin: auto;
+	margin-bottom: 25px;
   text-align: center;
 }
 
