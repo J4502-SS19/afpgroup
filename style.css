@@ -13,14 +13,14 @@ h1 {
     font-family: 'Arimo', sans-serif;
 		font-style: bold;
 		font-size: 30px;
-		color: #214b74;
+		color: #214b74
 }
 
 h2{
 	color: #214b74;
 	font-family: 'Open Sans', arial; sans-serif;
 	font-style: bold;
-	font-size: 16px;
+	font-size: 15px;
 	text-align: center;
 	margin-bottom: 5px;
 }
@@ -28,13 +28,9 @@ h2{
 h3 {
 	font-family: 'Arimo', sans-serif;
 	font-style: bold;
-<<<<<<< HEAD
-	font-size: 26px
-	color: #214b74
-=======
 	font-size: 30px;
 	color: #1e4574
->>>>>>> d3b9d6c092e65cd37227f0fdb17e7232b76a0a2a
+
 }
 
 ul {
@@ -73,7 +69,7 @@ ul {
 }
 
 .logo {
-		justify-content:center;
+		justify-content: flex-start;
 }
 
 .responsive {
@@ -84,7 +80,6 @@ ul {
 
 .partner {
 	color: #6eacde;
-	justify-content: center;
 }
 
 .item {
@@ -95,7 +90,7 @@ ul {
 	  border-bottom: 1px solid #ccc;
 }
 
-.nav a:link, #nav a:visited {
+.nav a:link, .nav a:visited {
 	  display:block;
     color: #f1f0f1;
     background-color: #6eacde;
@@ -106,7 +101,7 @@ ul {
     font-family: 'Arimo', sans-serif;
 }
 
-.nav a:hover, #nav a:active {
+.nav a:hover, .nav a:active {
     background-color: #214b74;
 }
 
@@ -120,10 +115,6 @@ ul {
     text-align: right;
 }
 
-<<<<<<< HEAD
-#footer {
-
-=======
 .container-2{
 	display:flex;
 	flex-direction:column;
@@ -204,14 +195,11 @@ ul {
 	text-align: center;
 }
 
-.mugs {
-	margin: 0px;
-	padding: 0px;
-	list-style: none;
-	display: grid;
-	grid-template-columns: 1fr 1fr 1fr;
-	grid-gap: 20px;
-	gap: 20px;
+#mugs {
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+	width: 50%;
 }
 
 /*about blocks style goes here*/
@@ -222,7 +210,6 @@ ul {
     display: flex;
     flex-direction: row;
 		flex-wrap: wrap;
-
 }
 
 .cards li {
@@ -241,21 +228,26 @@ ul {
 		align-content: center;
 	}
 
-	.cards p
-		{
-			display: flex;
-			align-content: center;
-		}
 
-.cards img
-{
+.cards img{
 	height: auto;
 	width:60%;
 }
 
+.mugs {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	display: grid;
+	grid-template-columns: 98px 98px 98px;
+	grid-gap: 5px;
+	gap: 5px;
+}
+
 .mugs li{
 	background-color: #6eacde;
-	padding: 10px;
+	padding: 5px;
+	list-style: none;
 }
 
 .mugbox {
@@ -305,40 +297,12 @@ ul {
 	grid-row: 3;
 }
 
-.mug8{
-	grid-column: 2;
-	grid-row: 3;
-}
-
-.mug9{
-	grid-column: 3;
-	grid-row: 3;
-}
-
-.mug10{
-	grid-column: 1;
-	grid-row: 4;
-}
->>>>>>> d3b9d6c092e65cd37227f0fdb17e7232b76a0a2a
-
-.mug11{
-	grid-column: 2;
-	grid-row: 4;
-}
 
 #footer {
     color: white;
-<<<<<<< HEAD
-    color: #1e4574;
-		background-color: #1e4574;
-    font-family: Georgia, "Times New Roman", serif;
-    font-size: 0.8em;
-    border-top: 1px solid black;
-=======
 		background-color: #1e4574;
     font-family: "Open Sans Regular", "Georgia", serif;
     font-size: 16px;
->>>>>>> d3b9d6c092e65cd37227f0fdb17e7232b76a0a2a
 		display: flex;
 		justify-content: space-between;
 		flex-direction: column;
