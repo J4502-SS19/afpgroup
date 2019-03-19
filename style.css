@@ -253,8 +253,11 @@ ul {
 .mugbox {
 	display: flex;
 	flex-direction: column;
-	padding: 0;
-	list-style-type: none;
+	justify-content: space-around;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.05);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
 }
 
 @media (min-width: 600px) {
