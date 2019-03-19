@@ -17,10 +17,10 @@ h1 {
 }
 
 h2{
-	color: #6eacde;
+	color: #214b74;
 	font-family: 'Open Sans', arial; sans-serif;
 	font-style: bold;
-	font-size: 17px;
+	font-size: 15px;
 	text-align: center;
 	margin-bottom: 5px;
 }
@@ -234,19 +234,19 @@ ul {
 	width:60%;
 }
 
-.mugshots {
+.mugs {
 	margin: 0;
 	padding: 0;
 	list-style: none;
 	display: grid;
-	grid-template-columns: 1fr 1fr 1fr;
-	grid-gap: 20px;
-	gap: 20px;
+	grid-template-columns: 98px 98px 98px;
+	grid-gap: 5px;
+	gap: 5px;
 }
 
-.mugshots li{
+.mugs li{
 	background-color: #6eacde;
-	padding: 10px;
+	padding: 5px;
 	list-style: none;
 }
 
