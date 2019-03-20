@@ -16,11 +16,19 @@ h1 {
 		color: #214b74;
 }
 
+<<<<<<< HEAD
 h2{
 	color: #214b74;
 	font-family: 'Open Sans', arial; sans-serif;
 	font-style: bold;
 	font-size: 22px;
+=======
+h2 {
+	color: #214b74;
+	font-family: 'Open Sans', arial; sans-serif;
+	font-style: bold;
+	font-size: 15px;
+>>>>>>> bfb0087dfd9aca8772c9e56988532fae58d70971
 	text-align: center;
 	margin-bottom: 5px;
 }
@@ -30,7 +38,20 @@ h3 {
 	font-style: bold;
 	font-size: 30px;
 	color: #1e4574
+<<<<<<< HEAD
+=======
 }
+
+h4 {
+	color: #ffffff;
+	font-family: 'Open Sans', arial; sans-serif;
+	font-style: bold;
+	font-size: 30px;
+	text-align: center;
+	margin: auto;
+>>>>>>> bfb0087dfd9aca8772c9e56988532fae58d70971
+}
+
 
 ul {
 	color: #000000;
@@ -188,7 +209,7 @@ ul {
 
 .location {
 	color: #6eacde;
-  font-family: 'Open Sans', arial; sans-serif;
+  font-family: 'Arimo | Open Sans', arial; sans-serif;
 	font-style: normal;
 	font-size: 16px;
 	text-align: center;
@@ -248,6 +269,41 @@ ul {
 	width:60%;
 }
 
+<<<<<<< HEAD
+=======
+.mugs {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	display: grid;
+	grid-template-columns: 98px 98px 98px;
+	grid-gap: 5px;
+	gap: 5px;
+}
+
+.mugs li{
+	background-color: #6eacde;
+	padding: 5px;
+	list-style: none;
+}
+
+.mugbox {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.05);
+  max-width: 500px;
+  margin: auto;
+	margin-bottom: 25px;
+  text-align: center;
+}
+
+@media (min-width: 600px) {
+.nav {
+	flex-direction: row;
+}
+
+>>>>>>> bfb0087dfd9aca8772c9e56988532fae58d70971
 .mug1{
 	grid-column: 1;
 	grid-row: 1;
