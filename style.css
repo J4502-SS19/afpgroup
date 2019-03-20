@@ -175,11 +175,6 @@ ul {
 }
 
 /*column style goes here*/
-#row {
-  display: flex;
-	justify-content: space-between;
-	flex-direction:row;
-}
 
 .center {
   display: block;
