@@ -13,14 +13,14 @@ h1 {
     font-family: 'Arimo', sans-serif;
 		font-style: bold;
 		font-size: 30px;
-		color: #214b74
+		color: #214b74;
 }
 
 h2{
-	color: #6eacde;
+	color: #214b74;
 	font-family: 'Open Sans', arial; sans-serif;
 	font-style: bold;
-	font-size: 17px;
+	font-size: 22px;
 	text-align: center;
 	margin-bottom: 5px;
 }
@@ -30,7 +30,6 @@ h3 {
 	font-style: bold;
 	font-size: 30px;
 	color: #1e4574
-
 }
 
 ul {
@@ -90,7 +89,7 @@ ul {
 	  border-bottom: 1px solid #ccc;
 }
 
-.nav a:link, .nav a:visited {
+.nav a:link, #nav a:visited {
 	  display:block;
     color: #f1f0f1;
     background-color: #6eacde;
@@ -101,7 +100,7 @@ ul {
     font-family: 'Arimo', sans-serif;
 }
 
-.nav a:hover, .nav a:active {
+.nav a:hover, #nav a:active {
     background-color: #214b74;
 }
 
@@ -195,11 +194,19 @@ ul {
 	text-align: center;
 }
 
-#mugs {
-	display: block;
-  margin-left: auto;
-  margin-right: auto;
-	width: 50%;
+.mugs {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 20px;
+	gap: 20px;
+}
+
+.mugs li{
+	background-color: #6eacde;
+	padding: 10px;
 }
 
 /*about blocks style goes here*/
@@ -210,6 +217,7 @@ ul {
     display: flex;
     flex-direction: row;
 		flex-wrap: wrap;
+
 }
 
 .cards li {
@@ -228,26 +236,16 @@ ul {
 		align-content: center;
 	}
 
+	.cards p
+		{
+			display: flex;
+			align-content: center;
+		}
 
-.cards img{
+.cards img
+{
 	height: auto;
 	width:60%;
-}
-
-.mugshots {
-	margin: 0;
-	padding: 0;
-	list-style: none;
-	display: grid;
-	grid-template-columns: 1fr 1fr 1fr;
-	grid-gap: 20px;
-	gap: 20px;
-}
-
-.mugshots li{
-	background-color: #6eacde;
-	padding: 10px;
-	list-style: none;
 }
 
 .mug1{
@@ -285,6 +283,25 @@ ul {
 	grid-row: 3;
 }
 
+.mug8{
+	grid-column: 2;
+	grid-row: 3;
+}
+
+.mug9{
+	grid-column: 3;
+	grid-row: 3;
+}
+
+.mug10{
+	grid-column: 1;
+	grid-row: 4;
+}
+
+.mug11{
+	grid-column: 2;
+	grid-row: 4;
+}
 
 #footer {
     color: white;
