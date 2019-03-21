@@ -20,7 +20,7 @@ h2 {
 	color: #214b74;
 	font-family: 'Open Sans', arial; sans-serif;
 	font-style: bold;
-	font-size: 15px;
+	font-size: 25px;
 	text-align: center;
 	margin-bottom: 5px;
 }
@@ -28,17 +28,17 @@ h2 {
 h3 {
 	font-family: 'Arimo', sans-serif;
 	font-style: bold;
-	font-size: 30px;
-	color: #1e4574
+	font-size: 15px;
+	color: #214b74;
+	text-align: center;
 }
 
 h4 {
-	color: #ffffff;
+	color: #214b74;
 	font-family: 'Open Sans', arial; sans-serif;
 	font-style: bold;
-	font-size: 30px;
-	text-align: center;
-	margin: auto;
+	font-size: 15px;
+	text-align: left;
 }
 
 
@@ -47,6 +47,11 @@ ul {
       font-family: 'Open Sans', arial; sans-serif;
 			font-style: normal;
 			font-size: 16px;
+}
+
+.list {
+	font-style: bold;
+	font-size: 20px
 }
 
 
@@ -70,12 +75,12 @@ ul {
 	  list-style-type: none;
 }
 
-@media (min-width: 600px) {
+/* @media (min-width: 600px) {
 	.nav {
 		flex-direction: row;
 		justify-content: flex-end;
 	}
-}
+} */
 
 .logo {
 		justify-content: flex-start;
@@ -280,10 +285,10 @@ ul {
   text-align: center;
 }
 
-@media (min-width: 600px) {
+/* @media (min-width: 600px) {
 .nav {
 	flex-direction: row;
-}
+} */
 
 .mug1{
 	grid-column: 1;
