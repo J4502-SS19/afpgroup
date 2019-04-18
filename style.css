@@ -197,21 +197,6 @@ nav a:link {
 	text-align: center;
 }
 
-.mugs {
-	margin: 0;
-	padding: 0;
-	list-style: none;
-	display: grid;
-	grid-template-columns: 1fr 1fr 1fr;
-	grid-gap: 20px;
-	gap: 20px;
-}
-
-.mugs li{
-	background-color: #6eacde;
-	padding: 10px;
-}
-
 /*about blocks style goes here*/
 .cards {
     padding: 0;
@@ -220,7 +205,6 @@ nav a:link {
     display: flex;
     flex-direction: row;
 		flex-wrap: wrap;
-
 }
 
 .cards li {
@@ -248,20 +232,9 @@ nav a:link {
 	width:60%;
 }
 
-.mugs {
-	margin: 0;
-	padding: 0;
-	list-style: none;
-	display: grid;
-	grid-template-columns: 98px 98px 98px;
-	grid-gap: 5px;
-	gap: 5px;
-}
-
-.mugs li{
+.mug {
 	background-color: #6eacde;
 	padding: 5px;
-	list-style: none;
 }
 
 .mugbox {
@@ -280,59 +253,20 @@ nav a:link {
 	flex-direction: row;
 } */
 
-.mug1{
-	grid-column: 1;
-	grid-row: 1;
+#homemugs {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	padding: 5px;
+  border-radius: 2px;
 }
 
-.mug2{
-	grid-column: 2;
-	grid-row: 1;
-}
-
-.mug3{
-	grid-column: 3;
-	grid-row: 1;
-}
-
-.mug4{
-	grid-column: 1;
-	grid-row: 2;
-}
-
-.mug5{
-	grid-column: 2;
-	grid-row: 2;
-}
-
-.mug6{
-	grid-column: 3;
-	grid-row: 2;
-}
-
-.mug7{
-	grid-column: 1;
-	grid-row: 3;
-}
-
-.mug8{
-	grid-column: 2;
-	grid-row: 3;
-}
-
-.mug9{
-	grid-column: 3;
-	grid-row: 3;
-}
-
-.mug10{
-	grid-column: 1;
-	grid-row: 4;
-}
-
-.mug11{
-	grid-column: 2;
-	grid-row: 4;
+#mugname {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+  border-radius: 2px;
+	justify-content: center;
 }
 
 #footer {
