@@ -18,9 +18,8 @@ h1 {
 }
 
 h2 {
-	color: #a4a7a9;
+	color: #214b74;
 	font-family: 'Open Sans', arial; sans-serif;
-	font-style: bold;
 	font-size: 25px;
 	margin-bottom: 5px;
 }
@@ -30,6 +29,7 @@ h3 {
 	font-style: bold;
 	font-size: 15px;
 	color: #1e4c75;
+	text-transform: capitalize;
 }
 
 h4 {
