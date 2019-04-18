@@ -396,7 +396,7 @@ img {
 	nav {
 			display: flex;
 			flex: 0 1 0;
-			flex-direction: column;
+			flex-direction: row;
 	    padding: 0;
 		  list-style-type: none;
 	}
