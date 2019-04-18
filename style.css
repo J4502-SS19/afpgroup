@@ -11,14 +11,14 @@ p {
 
 h1 {
     font-family: 'Arimo', sans-serif;
+		text-transform: capitalize;
 		font-style: bold;
 		font-size: 40px;
-		text-transform: capitalize;
 		color: #214b74;
 }
 
 h2 {
-	color: #214b74;
+	color: #a4a7a9;
 	font-family: 'Open Sans', arial; sans-serif;
 	font-style: bold;
 	font-size: 25px;
@@ -26,15 +26,15 @@ h2 {
 }
 
 h3 {
-	font-family: 'Arimo', sans-serif;
+	font-family: 'Open Sans', arial; sans-serif;
 	font-style: bold;
 	font-size: 15px;
-	color: #214b74;
+	color: #1e4c75;
 }
 
 h4 {
-	color: #214b74;
-	font-family: 'Open Sans', arial; sans-serif;
+	color: #6dacde;
+	font-family: 'Arimo', sans-serif;
 	font-style: bold;
 	font-size: 15px;
 }
