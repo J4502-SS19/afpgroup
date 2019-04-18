@@ -240,20 +240,17 @@ ul {
 		width: 250px;
 }
 
-.cards h2
-	{
+.cards h2 {
 		display: flex;
 		align-content: center;
 	}
 
-	.cards p
-		{
+.cards p {
 			display: flex;
 			align-content: center;
 		}
 
-.cards img
-{
+.cards img {
 	height: auto;
 	width:60%;
 }
