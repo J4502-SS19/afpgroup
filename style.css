@@ -11,34 +11,32 @@ p {
 
 h1 {
     font-family: 'Arimo', sans-serif;
+		text-transform: capitalize;
 		font-style: bold;
-		font-size: 30px;
+		font-size: 40px;
 		color: #214b74;
 }
 
 h2 {
 	color: #214b74;
 	font-family: 'Open Sans', arial; sans-serif;
-	font-style: bold;
 	font-size: 25px;
-	text-align: center;
 	margin-bottom: 5px;
 }
 
 h3 {
-	font-family: 'Arimo', sans-serif;
-	font-style: bold;
-	font-size: 15px;
-	color: #214b74;
-	text-align: center;
-}
-
-h4 {
-	color: #214b74;
 	font-family: 'Open Sans', arial; sans-serif;
 	font-style: bold;
 	font-size: 15px;
-	text-align: left;
+	color: #1e4c75;
+	text-transform: capitalize;
+}
+
+h4 {
+	color: #6dacde;
+	font-family: 'Arimo', sans-serif;
+	font-style: bold;
+	font-size: 15px;
 }
 
 
@@ -198,21 +196,6 @@ nav:link {
 	text-align: center;
 }
 
-.mugs {
-	margin: 0;
-	padding: 0;
-	list-style: none;
-	display: grid;
-	grid-template-columns: 1fr 1fr 1fr;
-	grid-gap: 20px;
-	gap: 20px;
-}
-
-.mugs li{
-	background-color: #6eacde;
-	padding: 10px;
-}
-
 /*about blocks style goes here*/
 .cards {
     padding: 0;
@@ -221,7 +204,6 @@ nav:link {
     display: flex;
     flex-direction: row;
 		flex-wrap: wrap;
-
 }
 
 .cards li {
@@ -249,20 +231,9 @@ nav:link {
 	width:60%;
 }
 
-.mugs {
-	margin: 0;
-	padding: 0;
-	list-style: none;
-	display: grid;
-	grid-template-columns: 98px 98px 98px;
-	grid-gap: 5px;
-	gap: 5px;
-}
-
-.mugs li{
+.mug {
 	background-color: #6eacde;
 	padding: 5px;
-	list-style: none;
 }
 
 .mugbox {
@@ -281,59 +252,20 @@ nav:link {
 	flex-direction: row;
 } */
 
-.mug1{
-	grid-column: 1;
-	grid-row: 1;
+#homemugs {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	padding: 5px;
+  border-radius: 2px;
 }
 
-.mug2{
-	grid-column: 2;
-	grid-row: 1;
-}
-
-.mug3{
-	grid-column: 3;
-	grid-row: 1;
-}
-
-.mug4{
-	grid-column: 1;
-	grid-row: 2;
-}
-
-.mug5{
-	grid-column: 2;
-	grid-row: 2;
-}
-
-.mug6{
-	grid-column: 3;
-	grid-row: 2;
-}
-
-.mug7{
-	grid-column: 1;
-	grid-row: 3;
-}
-
-.mug8{
-	grid-column: 2;
-	grid-row: 3;
-}
-
-.mug9{
-	grid-column: 3;
-	grid-row: 3;
-}
-
-.mug10{
-	grid-column: 1;
-	grid-row: 4;
-}
-
-.mug11{
-	grid-column: 2;
-	grid-row: 4;
+#mugname {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+  border-radius: 2px;
+	justify-content: center;
 }
 
 #footer {
