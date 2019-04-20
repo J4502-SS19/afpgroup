@@ -52,6 +52,7 @@ nav {
 		flex: 0 1 0;
 		flex-direction: column;
     padding: 0;
+		color: white;
 	  list-style-type: none;
 }
 
@@ -237,7 +238,7 @@ nav {
 	flex-direction: column;
 	justify-content: space-around;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.05);
-  max-width: 500px;
+  max-width: 60%;
   margin: auto;
 	margin-bottom: 25px;
   text-align: center;
@@ -332,7 +333,7 @@ img {
     margin-bottom: 1em;
 		border-bottom: 1px solid #ccc;
 		border-radius: 3px;
-	}
+		}
 
 	.logo {
 		grid-area: a;
@@ -350,5 +351,24 @@ img {
 	.partner {
 		grid-area: c;
 	}
+
+	.currentfellowscards {
+		display: flex;
+		flex-direction: row;
+		flex-flow: wrap;
+		justify-content: flex-start;
+		padding: 5px;
+	}
+
+	.mugbox {
+		max-width:30%;
+	}
+
+
+
+
+
+
+
 
 }
