@@ -137,8 +137,8 @@ nav {
 	padding: 4px;
 }
 
-.container-2 a:link, a:hover {
-	color: #214b74;
+.container-2 a:active, a:hover {
+	color: #6eacde;
 }
 
 .item-7 {
