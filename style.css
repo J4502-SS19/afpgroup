@@ -11,7 +11,7 @@ p {
 
 h1 {
     font-family: 'Arimo', sans-serif;
-		text-transform: capitalize;
+		text-transform: uppercase;
 		font-style: bold;
 		font-size: 40px;
 		color: #214b74;
@@ -29,7 +29,7 @@ h3 {
 	font-style: bold;
 	font-size: 15px;
 	color: #1e4c75;
-	text-transform: capitalize;
+	text-transform: uppercase;
 }
 
 h4 {
@@ -272,10 +272,10 @@ nav {
     font-size: 16px;
 		display: flex;
 		justify-content: space-between;
-		flex-direction: column;
-		padding: 40px;
+		flex-direction: row;
+		padding: 20px;
 		align-items: center;
-		align-content: space-between;
+		align-content: center;
 }
 
 .footeritem-1 {
@@ -284,7 +284,7 @@ nav {
 	margin: 2px;
 }
 
-.footeritem-2 {
+.footeritem-2 { /*contact*/
 		color: #1e4574;
 		background-color: #f1f0f1;
 		border-radius: 10px;
@@ -292,7 +292,7 @@ nav {
 		margin: 2px;
 	}
 
-.footeritem-3 {
+.footeritem-3 { /*donate*/
 	color: white;
 	background-color: #aa0000;
 	border-radius: 20px;
@@ -304,7 +304,7 @@ nav {
 	text-decoration: none;
 }
 
-.footeritem-4 {
+.footeritem-4 { /*copyright*/
 	color: white;
 	display: flex;
 	align-content:flex-end;
