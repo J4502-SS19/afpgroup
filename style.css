@@ -236,6 +236,11 @@ nav {
 	width:60%;
 }
 
+.cards a:hover
+	{
+	color: white;
+	}
+
 .mug {
 	background-color: #6eacde;
 	padding: 5px;
@@ -252,6 +257,81 @@ nav {
   text-align: center;
 }
 
+
+.aboutmugsbox {
+
+	box-shadow: 5px 5px 30px 5px #888888;
+		background-color: #6eacde;
+		padding: 10px;
+    border-radius: 5px;
+		margin: 2px;
+		height: auto;
+		width: auto;
+}
+
+
+.aboutmugsbox h2 {
+		display: flex;
+		align-content: center;
+	}
+
+.aboutmugsbox p {
+			display: flex;
+			align-content: center;
+		}
+
+.aboutmugsbox img {
+	height: auto;
+	width:100%;
+	height: auto;
+	margin-top: 10px;
+}
+
+.aboutmugsbox a:hover
+	{
+	color: white;
+	}
+
+/*collapsible menu style */
+
+/* Style the button that is used to open and close the collapsible content */
+.collapsible {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .collapsible:hover {
+  background-color: #ccc;
+}
+
+/* Style the collapsible content. Note: hidden by default */
+.content {
+  padding: 0 18px;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+
+.collapsible:after {
+  content: '\02795'; /* Unicode character for "plus" sign (+) */
+  font-size: 13px;
+  color: white;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2796"; /* Unicode character for "minus" sign (-) */
+}
 /* news page style */
 
 .gallery {
