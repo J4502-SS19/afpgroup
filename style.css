@@ -11,7 +11,7 @@ p {
 
 h1 {
     font-family: 'Arimo', sans-serif;
-		text-transform: capitalize;
+		text-transform: uppercase;
 		font-style: bold;
 		font-size: 40px;
 		color: #214b74;
@@ -29,14 +29,22 @@ h3 {
 	font-style: bold;
 	font-size: 15px;
 	color: #1e4c75;
-	text-transform: capitalize;
+	text-transform: uppercase;
 }
 
 h4 {
 	color: #6dacde;
 	font-family: 'Arimo', sans-serif;
 	font-style: bold;
-	font-size: 15px;
+	font-size: 17px;
+}
+
+h5 {
+	color: white;
+	font-family: 'Arimo', sans-serif;
+	font-style: bold;
+	font-size: 25px;
+	justify-content: center;
 }
 
 
@@ -315,7 +323,7 @@ article {
 		display: flex;
 		justify-content: space-between;
 		flex-direction: column;
-		padding: 20px;
+		padding: 10px;
 		align-items: center;
 		align-content: center;
 }
@@ -338,12 +346,17 @@ article {
 	color: white;
 	background-color: #aa0000;
 	border-radius: 20px;
-	padding: 10px;
-	margin: 25px;
+	padding-left: 100px;
+	padding-right: 100px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin: 20px;
+	justify-content: center;
 }
 
 .footeritem-3 a {
 	text-decoration: none;
+	text-align: center;
 }
 
 .footeritem-4 { /*copyright*/
@@ -375,6 +388,36 @@ img {
     margin-bottom: 1em;
 		border-bottom: 1px solid #ccc;
 		border-radius: 3px;
+		}
+
+	alumniphotos {
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+		grid-gap: 15px;
+		grid-template-areas:
+				"a a a"
+				"b b b"
+				"c c c";
+		align-content: space-around;
+		justify-content: space-between;
+		margin-bottom: 1em;
+		border-bottom: 1px solid #ccc;
+		border-radius: 3px;
+
+		alumniprofiles {
+			display: grid;
+			grid-template-columns: 1fr 1fr 1fr;
+			grid-gap: 15px;
+			grid-template-areas:
+					"a a a"
+					"b b b"
+					"c c c";
+			align-content: space-around;
+			justify-content: space-between;
+			margin-bottom: 1em;
+			border-bottom: 1px solid #ccc;
+			border-radius: 3px;
+	}
 		}
 
 	.logo {
@@ -425,18 +468,26 @@ img {
 
 		.footeritem-1 {
 	    grid-area: a;
+			border-radius: 3px;
+			padding: 10px;
+			margin: 5px;
 		}
 
 		.footeritem-2 {
 	    grid-area: b;
+			border-radius: 10px;
+			padding: 10px;
+			margin: 5px;
 		}
 
 		.footeritem-3 {
 	    grid-area: c;
+			justify-content: center;
 		}
 
 		.footeritem-4 {
 	    grid-area: d;
+			justify-content: center;
 		}
 
 
