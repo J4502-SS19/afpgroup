@@ -348,7 +348,6 @@ img {
 		border-radius: 3px;
 		}
 
-@media screen and (min-width:1000px) {
 	alumniphotos {
 		display: grid;
 		grid-template-columns: 1fr 1fr 1fr;
@@ -364,21 +363,20 @@ img {
 		border-radius: 3px;
 	}
 		}
-@@media screen and (min-width:1000px) {
+@media screen and (min-width:1000px) {
 	alumniprofiles {
 		display: grid;
 		grid-template-columns: 1fr 1fr 1fr 1fr;
 		grid-gap: 15px;
 		grid-template-areas:
-		"a a a a";
+		"a a"
+		"b b";
 		align-content: space-around;
 		justify-content: space-between;
 		margin-bottom: 1em;
 		border-bottom: 1px solid #ccc;
 		border-radius: 3px;
 	}
-	}
-
 }
 
 	.logo {
