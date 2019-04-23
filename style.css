@@ -11,7 +11,7 @@ p {
 
 h1 {
     font-family: 'Arimo', sans-serif;
-		text-transform: uppercase;
+		text-transform: capitalize;
 		font-style: bold;
 		font-size: 40px;
 		color: #214b74;
@@ -29,7 +29,7 @@ h3 {
 	font-style: bold;
 	font-size: 15px;
 	color: #1e4c75;
-	text-transform: uppercase;
+	text-transform: capitalize;
 }
 
 h4 {
@@ -272,7 +272,7 @@ nav {
     font-size: 16px;
 		display: flex;
 		justify-content: space-between;
-		flex-direction: row;
+		flex-direction: column;
 		padding: 20px;
 		align-items: center;
 		align-content: center;
@@ -364,6 +364,30 @@ img {
 		max-width:30%;
 	}
 
+ 	footer {
+	    display: grid;
+	    grid-template-columns: 1fr 1fr 1fr;
+	    grid-gap: 20px;
+	    grid-template-areas:
+	        "a b c"
+					"a b d";
+	  }
+
+		.footeritem-1 {
+	    grid-area: a;
+		}
+
+		.footeritem-2 {
+	    grid-area: b;
+		}
+
+		.footeritem-3 {
+	    grid-area: c;
+		}
+
+		.footeritem-4 {
+	    grid-area: d;
+		}
 
 
 
