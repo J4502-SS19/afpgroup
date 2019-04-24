@@ -114,7 +114,7 @@ nav {
 }
 
 .partner {
-	color: #6eacde;
+	color: #6dacde;
 }
 
 .caption {
@@ -236,6 +236,11 @@ nav {
 	width:60%;
 }
 
+.cards a:hover
+	{
+	color: white;
+	}
+
 .mug {
 	background-color: #6eacde;
 	padding: 5px;
@@ -252,10 +257,118 @@ nav {
   text-align: center;
 }
 
-/* @media (min-width: 600px) {
-.nav {
-	flex-direction: row;
-} */
+
+.aboutmugsbox {
+
+	box-shadow: 5px 5px 30px 5px #888888;
+		background-color: #6eacde;
+		padding: 5px;
+    border-radius: 5px;
+		margin-top: 5px;
+		margin-right: 125px;
+		height: auto;
+		width: auto;
+}
+
+
+.aboutmugsbox h2 {
+		display: flex;
+		align-content: center;
+	}
+
+.aboutmugsbox p {
+			display: flex;
+			align-content: center;
+		}
+
+.aboutmugsbox img {
+	height: auto;
+	width:100%;
+	height: auto;
+	margin-top: 10px;
+}
+
+.aboutmugsbox a:hover
+	{
+	color: white;
+	}
+
+/*collapsible menu style */
+
+summary {
+	font-family: 'Arimo', sans-serif;
+	text-transform: uppercase;
+	font-style: bold;
+	font-size: 30px;
+	color: black;
+	margin-left: 25px;
+}
+
+.summary {
+	margin-left: 10px;
+	margin-right:10px;
+}
+
+#summary
+{font-weight:bold;}
+
+.indent {
+margin-left: 100px;
+}
+
+li a:visited
+	{color:black}
+
+li p {
+	width: 50%;
+}
+
+/* news page style */
+
+.gallery {
+  width: 90%;
+  max-width: 1240px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  grid-gap: 20px;
+}
+
+.news-cards a:active a:visited {
+  background: white;
+  text-decoration: none;
+  color: #444;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  position: relative;
+  top: 0;
+  transition: all .1s ease-in;
+
+  &:hover {
+    top: -2px;
+    box-shadow: 0 4px 5px rgba(0,0,0,0.2);
+  }
+
+article {
+    padding: 20px;
+    flex: 1;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .thumb {
+    padding-bottom: 60%;
+    background-size: cover;
+    background-position: center center;
+  }
+}
+
+/* end news page style */
 
 #homemugs {
 	display: flex;
@@ -284,6 +397,7 @@ nav {
 		padding: 10px;
 		align-items: center;
 		align-content: center;
+		margin-top: 40px;
 }
 
 .footeritem-1 {
@@ -328,6 +442,9 @@ nav {
 img {
 	border: none;
 }
+
+.tab
+{margin-left: 150px}
 
 /*------------PUT DESKTOP STYLES HERE!----
 ----------------------------------------*/
@@ -374,6 +491,25 @@ img {
 		border-bottom: 1px solid #ccc;
 		border-radius: 3px;
 	}
+
+	aboutphotos {
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+		grid-gap: 15px;
+		grid-template-areas:
+				"a a a"
+				"b b b"
+				"c c c";
+		align-content: space-around;
+		justify-content: space-between;
+		margin-bottom: 1em;
+		border-bottom: 1px solid #ccc;
+		border-radius: 3px;}
+		}
+
+		.summary {
+			margin-left: 100px;
+			margin-right: 100px;
 		}
 
 	.logo {
@@ -405,7 +541,15 @@ img {
 		max-width:30%;
 	}
 
- 	#footer {
+	.gallery {
+		grid-template-columns: repeat(4, 1fr);
+	}
+
+	.news-1 {
+		grid-column: 1 / span 2;
+	}
+
+ 	footer {
 	    display: grid;
 	    grid-template-columns: 1fr 1fr 1fr;
 	    grid-gap: 20px;
@@ -437,10 +581,6 @@ img {
 	    grid-area: d;
 			justify-content: center;
 		}
-
-
-
-
 
 
 
