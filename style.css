@@ -304,7 +304,10 @@ summary {
 	margin-left: 25px;
 }
 
-
+.summary {
+	margin-left: 10px;
+	margin-right:10px;
+}
 
 #summary
 {font-weight:bold;}
