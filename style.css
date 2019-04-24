@@ -304,10 +304,7 @@ summary {
 	margin-left: 25px;
 }
 
-.summary {
-	margin-left: 100px;
-	margin-right: 100px;
-}
+
 
 #summary
 {font-weight:bold;}
@@ -507,6 +504,11 @@ img {
 		margin-bottom: 1em;
 		border-bottom: 1px solid #ccc;
 		border-radius: 3px;}
+		}
+
+		.summary {
+			margin-left: 100px;
+			margin-right: 100px;
 		}
 
 	.logo {
