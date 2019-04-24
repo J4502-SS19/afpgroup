@@ -481,10 +481,19 @@ img {
 	}
 	alumniprofiles{
 		display: grid;
-		grid-template-columns: 1fr 1fr 1fr 1fr;
-		grid-gap: 1px;
+		grid-template-columns: 1fr;
+		grid-column-gap: 0px;
+		grid-row-gap: 30px;
 		grid-template-areas:
-				"a b c d";
+				"a"
+				"b"
+				"c"
+				"d";
+		align-content: space-around;
+		justify-content: space-between;
+		margin-bottom: 1em;
+		border-bottom: 1px solid #ccc;
+		border-radius: 3px;
 	}
 
 	aboutphotos {
@@ -536,6 +545,9 @@ img {
 		max-width:30%;
 	}
 
+	.profilemug {
+		max-width:
+	}
 	.gallery {
 		grid-template-columns: repeat(4, 1fr);
 	}
