@@ -301,7 +301,16 @@ summary {
 	font-style: bold;
 	font-size: 30px;
 	color: black;
+	margin-left: 25px;
 }
+
+.summary {
+	margin-left: 100px;
+	margin-right: 100px;
+}
+
+#summary
+{font-weight:bold;}
 
 .indent {
 margin-left: 100px;
@@ -388,6 +397,7 @@ article {
 		padding: 10px;
 		align-items: center;
 		align-content: center;
+		margin-top: 40px;
 }
 
 .footeritem-1 {
@@ -434,7 +444,7 @@ img {
 }
 
 .tab
-{margin-left: 10px}
+{margin-left: 150px}
 
 /*------------PUT DESKTOP STYLES HERE!----
 ----------------------------------------*/
