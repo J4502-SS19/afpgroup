@@ -173,6 +173,14 @@ nav {
 	border-bottom: 1px solid #ccc;
 }
 
+.item-10 {
+	border-radius: 3px;
+	background-color: #214b74;
+	padding: 15px;
+	margin: 2px;
+	border-bottom: 1px solid #ccc;
+}
+
 /*column style goes here*/
 
 .center {
@@ -335,8 +343,8 @@ li p {
   grid-gap: 20px;
 }
 
-.news-cards a:active a:visited {
-  background: white;
+.news-cards {
+  /* background: white; */
   text-decoration: none;
   color: #444;
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
@@ -346,6 +354,7 @@ li p {
   position: relative;
   top: 0;
   transition: all .1s ease-in;
+}
 
   &:hover {
     top: -2px;
@@ -355,34 +364,33 @@ li p {
 article {
     padding: 20px;
     flex: 1;
-
     display: flex;
     flex-direction: column;
     justify-content: space-between;
   }
 
   .thumb {
+		flex: 2;
     padding-bottom: 60%;
     background-size: cover;
     background-position: center center;
   }
-}
+
 
 /* end news page style */
-
 #homemugs {
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
 	padding: 5px;
-  border-radius: 2px;
+	border-radius: 2px;
 }
 
 #mugname {
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
-  border-radius: 2px;
+	border-radius: 2px;
 	justify-content: center;
 }
 
@@ -465,6 +473,22 @@ img {
 		border-radius: 3px;
 		}
 
+		#homemugs {
+			display: flex;
+			flex-direction: row;
+			flex-wrap: wrap;
+			padding: 5px;
+		  border-radius: 2px;
+		}
+
+		#mugname {
+			display: flex;
+			flex-direction: row;
+			flex-wrap: wrap;
+		  border-radius: 2px;
+			justify-content: center;
+		}
+
 	alumniphotos {
 		display: grid;
 		grid-template-columns: 1fr 1fr 1fr;
@@ -481,10 +505,14 @@ img {
 	}
 	alumniprofiles{
 		display: grid;
-		grid-template-columns: 1fr 1fr 1fr;
-		grid-gap: 15px;
+		grid-template-columns: 1fr;
+		grid-column-gap: 0px;
+		grid-row-gap: 30px;
 		grid-template-areas:
-				"a b c d";
+				"a"
+				"b"
+				"c"
+				"d";
 		align-content: space-around;
 		justify-content: space-between;
 		margin-bottom: 1em;
@@ -505,7 +533,7 @@ img {
 		margin-bottom: 1em;
 		border-bottom: 1px solid #ccc;
 		border-radius: 3px;}
-		}
+
 
 		.summary {
 			margin-left: 100px;
@@ -541,6 +569,9 @@ img {
 		max-width:30%;
 	}
 
+	.profilemug {
+		max-width:
+	}
 	.gallery {
 		grid-template-columns: repeat(4, 1fr);
 	}
@@ -549,14 +580,14 @@ img {
 		grid-column: 1 / span 2;
 	}
 
- 	footer {
+ 	#footer {
 	    display: grid;
 	    grid-template-columns: 1fr 1fr 1fr;
 	    grid-gap: 20px;
 	    grid-template-areas:
 	        "a b c"
 					"a b d";
-	  }
+			}
 
 		.footeritem-1 {
 	    grid-area: a;
