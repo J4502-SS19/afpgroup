@@ -378,6 +378,21 @@ article {
 
 
 /* end news page style */
+#homemugs {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	padding: 5px;
+	border-radius: 2px;
+}
+
+#mugname {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	border-radius: 2px;
+	justify-content: center;
+}
 
 #footer {
     color: white;
