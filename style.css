@@ -572,17 +572,6 @@ img {
 	    grid-template-areas:
 	        "a b c"
 					"a b d";
-			color: white;
-			background-color: #1e4574;
-			font-family: "Open Sans Regular", "Georgia", serif;
-			font-size: 16px;
-			display: flex;
-			justify-content: space-between;
-			flex-direction: column;
-			padding: 10px;
-			align-items: center;
-			align-content: center;
-			margin-top: 40px;
 			}
 
 		.footeritem-1 {
