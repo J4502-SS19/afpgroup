@@ -379,22 +379,6 @@ article {
 
 /* end news page style */
 
-#homemugs {
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	padding: 5px;
-  border-radius: 2px;
-}
-
-#mugname {
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-  border-radius: 2px;
-	justify-content: center;
-}
-
 #footer {
     color: white;
 		background-color: #1e4574;
@@ -472,6 +456,22 @@ img {
     margin-bottom: 1em;
 		border-bottom: 1px solid #ccc;
 		border-radius: 3px;
+		}
+
+		#homemugs {
+			display: flex;
+			flex-direction: row;
+			flex-wrap: wrap;
+			padding: 5px;
+		  border-radius: 2px;
+		}
+
+		#mugname {
+			display: flex;
+			flex-direction: row;
+			flex-wrap: wrap;
+		  border-radius: 2px;
+			justify-content: center;
 		}
 
 	alumniphotos {
