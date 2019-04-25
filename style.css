@@ -557,7 +557,7 @@ img {
 		grid-column: 1 / span 2;
 	}
 
- 	footer {
+ 	#footer {
 	    display: grid;
 	    grid-template-columns: 1fr 1fr 1fr;
 	    grid-gap: 20px;
