@@ -135,7 +135,7 @@ nav {
 	font-family: 'Arimo', sans-serif;
 }
 
-.container-2 a:link, a:visited {
+.container-2 a:link, .container-2 a:visited {
 	display:block;
 	color: #f1f0f1;
 	background-color: #214b74;
@@ -145,17 +145,16 @@ nav {
 	padding: 4px;
 }
 
-.container-2 a:active, a:hover {
+.container-2 a:active, .container-2 a:hover {
 	color: #6eacde;
 }
 
-.red {
+.red, .red a:link, .red a:visited {
 	border-radius: 3px;
-	background-color: red;
-	color: red;
-	padding: 15px;
-	margin: 2px;
-	border-bottom: 1px solid red;
+	background-color: #aa0000;
+	padding: 10px;
+	margin: 1px;
+	border-bottom: .5px solid #aa0000;
 }
 
 .item-7 {
