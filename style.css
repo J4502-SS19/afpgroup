@@ -151,7 +151,8 @@ nav {
 
 .item-7 {
 	border-radius: 3px;
-	background-color: #214b74;
+	background-color: red;
+	color: red;
 	padding: 15px;
 	margin: 2px;
 	border-bottom: 1px solid #ccc;
