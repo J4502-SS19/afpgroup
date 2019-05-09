@@ -492,14 +492,14 @@ img {
 
 	alumniphotos {
 		display: grid;
-		grid-template-columns: 1fr 1fr 1fr;
-		grid-gap: 15px;
+		grid-template-columns: 1fr 1fr;
+		grid-gap: 10px;
 		grid-template-areas:
 				"a a"
 				"b b"
-				"c c";
-		align-content: space-around;
-		justify-content: space-between;
+				"c c"
+				"d d";
+		justify-content:left;
 		margin-bottom: 1em;
 		border-bottom: 1px solid #ccc;
 		border-radius: 3px;
