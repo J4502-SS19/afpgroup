@@ -6,7 +6,7 @@
 
 p {
 	color: #000000;
-    font-family: 'Open Sans', arial; sans-serif;
+  font-family: 'Open Sans', arial; sans-serif;
 }
 
 h1 {
@@ -63,6 +63,10 @@ nav {
 		color: white;
 	  list-style-type: none;
 }
+
+nav, nav a:link, nav a:visited {
+		color: #1e4c75;
+	}
 
 .item {
 	  display:block;
@@ -135,7 +139,7 @@ nav {
 	font-family: 'Arimo', sans-serif;
 }
 
-.container-2 a:link, .container-2 a:visited {
+.container-2 a:link, a:visited {
 	display:block;
 	color: #f1f0f1;
 	background-color: #214b74;
@@ -145,16 +149,17 @@ nav {
 	padding: 4px;
 }
 
-.container-2 a:active, .container-2 a:hover {
+.container-2 a:active, a:hover {
 	color: #6eacde;
 }
 
-.red, .red a:link, .red a:visited {
+.red {
 	border-radius: 3px;
-	background-color: #aa0000;
-	padding: 10px;
-	margin: 1px;
-	border-bottom: .5px solid #aa0000;
+	background-color: red;
+	color: red;
+	padding: 15px;
+	margin: 2px;
+	border-bottom: 1px solid red;
 }
 
 .item-7 {
@@ -287,6 +292,9 @@ nav {
 		width: auto;
 }
 
+.openerimage {
+	max-width: 1000px;
+}
 
 .aboutmugsbox h2 {
 		display: flex;
@@ -623,6 +631,18 @@ img {
 		.footeritem-4 {
 	    grid-area: d;
 			justify-content: center;
+		}
+
+		p {
+			display: grid;
+			grid-template-columns: 1fr 800px 1fr;
+			grid-gap: 10px;
+			grid-template-areas:
+					". a .";
+		}
+
+		.p {
+			grid-area: a;
 		}
 
 
