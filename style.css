@@ -523,7 +523,7 @@ img {
 				"c"
 				"d";
 		align-content: space-around;
-		justify-content: space-between;
+		justify-content: center;
 		margin-bottom: 1em;
 		border-bottom: 1px solid #ccc;
 		border-radius: 3px;
