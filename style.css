@@ -153,13 +153,12 @@ nav, nav a:link, nav a:visited {
 	color: #6eacde;
 }
 
-.red {
+.red, .red a:link, .red a:visited {
 	border-radius: 3px;
-	background-color: red;
-	color: red;
-	padding: 15px;
+	background-color: #aa0000;
+	padding: 8px;
 	margin: 2px;
-	border-bottom: 1px solid red;
+	border-bottom: 1px solid #aa0000;
 }
 
 .item-7 {
