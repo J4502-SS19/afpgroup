@@ -140,7 +140,7 @@ nav, nav a:link, nav a:visited {
 	font-family: 'Arimo', sans-serif;
 }
 
-.container-2 a:link, .container-2 a:visited {
+.container-2 a:link, a:visited {
 	display:block;
 	color: #f1f0f1;
 	background-color: #214b74;
@@ -150,16 +150,17 @@ nav, nav a:link, nav a:visited {
 	padding: 4px;
 }
 
-.container-2 a:active, .container-2 a:hover {
+.container-2 a:active, a:hover {
 	color: #6eacde;
 }
 
-.red, .red a:link, .red a:visited {
+.red {
 	border-radius: 3px;
-	background-color: #aa0000;
-	padding: 10px;
-	margin: 1px;
-	border-bottom: .5px solid #aa0000;
+	background-color: red;
+	color: red;
+	padding: 15px;
+	margin: 2px;
+	border-bottom: 1px solid red;
 }
 
 .item-7 {
@@ -286,7 +287,8 @@ nav, nav a:link, nav a:visited {
 		padding: 5px;
     border-radius: 5px;
 		margin-top: 5px;
-		margin-right: 125px;
+		margin-right: 100px;
+		margin-left: 100px;
 		height: auto;
 		width: auto;
 }
@@ -514,14 +516,14 @@ img {
 
 	alumniphotos {
 		display: grid;
-		grid-template-columns: 1fr 1fr;
-		grid-gap: 10px;
+		grid-template-columns: 0fr 1fr;
+		grid-gap: 15px;
 		grid-template-areas:
 				"a a"
 				"b b"
 				"c c"
 				"d d";
-		justify-content:left;
+		align-content:center;
 		margin-bottom: 1em;
 		border-bottom: 1px solid #ccc;
 		border-radius: 3px;
@@ -529,16 +531,12 @@ img {
 	alumniprofiles{
 		display: grid;
 		grid-template-columns: 1fr;
-		grid-column-gap: 0px;
-		grid-row-gap: 30px;
 		grid-template-areas:
 				"a"
 				"b"
-				"c"
-				"d";
-		align-content: space-around;
-		justify-content: space-between;
+				"c";
 		margin-bottom: 1em;
+		margin-left: 0px;
 		border-bottom: 1px solid #ccc;
 		border-radius: 3px;
 	}
