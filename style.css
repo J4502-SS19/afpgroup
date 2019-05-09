@@ -6,7 +6,7 @@
 
 p {
 	color: #000000;
-    font-family: 'Open Sans', arial; sans-serif;
+  font-family: 'Open Sans', arial; sans-serif;
 }
 
 h1 {
@@ -146,7 +146,7 @@ nav {
 }
 
 .container-2 a:active, a:hover {
-	color: #6eacde;
+	color: #214b74;
 }
 
 .red {
@@ -279,6 +279,9 @@ nav {
 		width: auto;
 }
 
+.openerimage {
+	max-width: 1000px;
+}
 
 .aboutmugsbox h2 {
 		display: flex;
@@ -612,6 +615,18 @@ img {
 		.footeritem-4 {
 	    grid-area: d;
 			justify-content: center;
+		}
+
+		p {
+			display: grid;
+			grid-template-columns: 1fr 800px 1fr;
+			grid-gap: 10px;
+			grid-template-areas:
+					". a .";
+		}
+
+		.p {
+			grid-area: a;
 		}
 
 
