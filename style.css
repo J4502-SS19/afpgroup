@@ -158,6 +158,14 @@ nav {
 	border-bottom: 1px solid red;
 }
 
+.item-7 {
+	border-radius: 3px;
+	background-color: #214b74;
+	padding: 15px;
+	margin: 2px;
+	border-bottom: 1px solid #ccc;
+}
+
 .item-8 {
 	border-radius: 3px;
 	background-color: #214b74;
