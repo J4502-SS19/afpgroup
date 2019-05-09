@@ -64,6 +64,10 @@ nav {
 	  list-style-type: none;
 }
 
+nav, nav a:link, nav a:visited {
+		color: #1e4c75;
+	}
+
 .item {
 	  display:block;
     background-color: #6eacde;
