@@ -281,7 +281,8 @@ nav {
 		padding: 5px;
     border-radius: 5px;
 		margin-top: 5px;
-		margin-right: 125px;
+		margin-right: 100px;
+		margin-left: 100px;
 		height: auto;
 		width: auto;
 }
@@ -521,16 +522,12 @@ img {
 	alumniprofiles{
 		display: grid;
 		grid-template-columns: 1fr;
-		grid-column-gap: 0px;
-		grid-row-gap: 30px;
 		grid-template-areas:
 				"a"
 				"b"
-				"c"
-				"d";
-		align-content: space-around;
-		justify-content: center;
+				"c";
 		margin-bottom: 1em;
+		margin-left: 0px;
 		border-bottom: 1px solid #ccc;
 		border-radius: 3px;
 	}
