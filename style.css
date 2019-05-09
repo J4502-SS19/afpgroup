@@ -129,7 +129,7 @@ nav {
 .container-2{
 	display:flex;
 	flex-direction:column;
-	flex-wrap; wrap;
+	flex-wrap: wrap;
 	justify-content: space-between;
 	padding: 15px;
 	font-family: 'Arimo', sans-serif;
