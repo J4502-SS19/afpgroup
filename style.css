@@ -129,13 +129,13 @@ nav {
 .container-2{
 	display:flex;
 	flex-direction:column;
-	flex-wrap; wrap;
+	flex-wrap: wrap;
 	justify-content: space-between;
-	padding: 15px;
+	padding: 1px;
 	font-family: 'Arimo', sans-serif;
 }
 
-.container-2 a:link, a:visited {
+.container-2 a:link, .container-2 a:visited {
 	display:block;
 	color: #f1f0f1;
 	background-color: #214b74;
@@ -145,14 +145,21 @@ nav {
 	padding: 4px;
 }
 
-.container-2 a:active, a:hover {
-	color: #214b74;
+.container-2 a:active, .container-2 a:hover {
+	color: #6eacde;
 }
 
-.red {
+.red, .red a:link, .red a:visited {
 	border-radius: 3px;
-	background-color: red;
-	color: red;
+	background-color: #aa0000;
+	padding: 10px;
+	margin: 1px;
+	border-bottom: .5px solid #aa0000;
+}
+
+.item-7 {
+	border-radius: 3px;
+	background-color: #214b74;
 	padding: 15px;
 	margin: 2px;
 	border-bottom: 1px solid #ccc;
@@ -477,6 +484,13 @@ img {
 		border-radius: 3px;
 		}
 
+		.container-2{
+			display:flex;
+			flex-direction:row;
+			flex-wrap: wrap;
+			justify-content: flex-end;
+		}
+
 		#homemugs {
 			display: flex;
 			flex-direction: row;
@@ -495,14 +509,14 @@ img {
 
 	alumniphotos {
 		display: grid;
-		grid-template-columns: 1fr 1fr 1fr;
-		grid-gap: 15px;
+		grid-template-columns: 1fr 1fr;
+		grid-gap: 10px;
 		grid-template-areas:
-				"a a a"
-				"b b b"
-				"c c c";
-		align-content: space-around;
-		justify-content: space-between;
+				"a a"
+				"b b"
+				"c c"
+				"d d";
+		justify-content:left;
 		margin-bottom: 1em;
 		border-bottom: 1px solid #ccc;
 		border-radius: 3px;
