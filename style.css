@@ -285,9 +285,10 @@ nav, nav a:link, nav a:visited {
 		background-color: #6eacde;
 		padding: 5px;
     border-radius: 5px;
-		margin-top: 5px;
-		margin-right: 100px;
-		margin-left: 100px;
+		margin-top: 10px;
+		margin-right: 10px;
+		margin-left: 10px;
+		margin-bottom: 10px;
 		height: auto;
 		width: auto;
 }
@@ -317,6 +318,9 @@ nav, nav a:link, nav a:visited {
 	{
 	color: white;
 	}
+td {
+	padding: 50px;
+}
 
 /*collapsible menu style */
 
@@ -542,15 +546,15 @@ img {
 
 	aboutphotos {
 		display: grid;
-		grid-template-columns: 1fr 1fr 1fr;
-		grid-gap: 15px;
+		grid-template-columns: 1fr 1fr 1fr
+		grid-gap: 3px;
 		grid-template-areas:
 				"a a a"
 				"b b b"
 				"c c c";
-		align-content: space-around;
-		justify-content: space-between;
-		margin-bottom: 1em;
+
+		justify-content:flex-start;
+		margin-bottom: 10px;
 		border-bottom: 1px solid #ccc;
 		border-radius: 3px;}
 
@@ -559,6 +563,21 @@ img {
 			margin-left: 100px;
 			margin-right: 100px;
 		}
+		.summarylogos {
+			margin-left: 100px;
+			margin-right: 100px;
+		}
+
+		.summarylogos img
+		{
+			padding-top:50px;
+		}
+
+
+
+	/*	.aboutlogos {
+			margin:10px;
+		} */
 
 	.logo {
 		grid-area: a;
